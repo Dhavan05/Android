@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Phon" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="Order" />
+      <module name="app" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e84debce-5b20-4909-8b8a-5e8e5f79618c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shadow/order/adapter/HomeAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shadow/order/model/CartDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/shadow/order/pages/home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home_recyclerview.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shadow/order/pages/home.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="166" column="87" selection-start-line="166" selection-start-column="87" selection-end-line="166" selection-end-column="87" />
+              <folding>
+                <element signature="e#10020#10369#0" expanded="true" />
+                <element signature="e#10368#10369#0" expanded="true" />
+                <element signature="e#10409#10620#0" expanded="true" />
+                <element signature="e#10619#10620#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>edit_vendor</find>
+      <find>products</find>
+      <find>Eskimo</find>
+      <find>mListener</find>
+      <find>Uri uri</find>
+      <find>mParam1</find>
+      <find>user</find>
+      <find>firebaseUser.getUid()</find>
+      <find>personalDetails.setPhone</find>
+      <find>startPhoneNumberVerification</find>
+      <find>fini</find>
+      <find>savedInstanceState.s</find>
+      <find>confirmEmail</find>
+      <find>addNewUser</find>
+      <find>changeToMainActivity()</find>
+      <find>addNewProduct</find>
+      <find>addNewEskimo</find>
+      <find>productAddPrice</find>
+      <find>d.</find>
+      <find>eskimoProductDatabase</find>
+      <find>EskimoTransactionHolder</find>
+      <find>addNewEskimoDialog</find>
+      <find>eskimoAddDate</find>
+      <find>check</find>
+      <find>setEs</find>
+      <find>eskimoadap</find>
+      <find>eskimoKey</find>
+      <find>allEskimo</find>
+      <find>VendorsHolder</find>
+      <find>productsHolder</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>allOrders</replace>
+      <replace>detailedOrder</replace>
+      <replace>allOrderProducts</replace>
+      <replace>productAddDetails</replace>
+      <replace>parent</replace>
+      <replace>10dp</replace>
+      <replace>&quot;20dp&quot;</replace>
+      <replace>&quot;10dp&quot;</replace>
+      <replace>&quot;5dp&quot;</replace>
+      <replace>onEditVendorFragmentInteraction</replace>
+      <replace>personalDetails</replace>
+      <replace>MultipleSelectRecycler</replace>
+      <replace>eskimos</replace>
+      <replace>EskimoModel</replace>
+      <replace>String string</replace>
+      <replace>eskimoID</replace>
+      <replace>eskimoTransactionHolder</replace>
+      <replace>firebaseUser</replace>
+      <replace>userUUID</replace>
+      <replace>addNewEskimo</replace>
+      <replace>addNewEskimoDialog</replace>
+      <replace>datePickerDialog</replace>
+      <replace>eskimoAddDate</replace>
+      <replace>eskimoProducts</replace>
+      <replace>datePickerDialog.</replace>
+      <replace>addEskimoTransactionDialog</replace>
+      <replace>EskimoMetadataHolder</replace>
+      <replace>eskimoTransactionDate</replace>
+      <replace>StocksHolder</replace>
+      <replace>homeHolder</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/custome_progress_bar.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/custom_progress_bar.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/Helper/CenterZoomLayoutManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/shadow/order/pages/vendors.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/shadow/order/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_products.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/shadow/order/pages/edit_eskimo.java" />
+        <opt

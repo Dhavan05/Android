@@ -1,0 +1,55 @@
+package com.shadow.order.adapter;
+
+import android.app.Activity;
+import android.graphics.Color;
+import android.support.annotation.NonNull;
+import android.support.v7.widget.CardView;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import com.google.firestore.v1.StructuredQuery;
+import com.shadow.order.MainActivity;
+import com.shadow.order.R;
+import com.shadow.order.model.CartDetails;
+import com.shadow.order.model.OrderDetails;
+import com.shadow.order.model.ProductDetails;
+import com.shadow.order.pages.edit_product;
+
+import java.util.List;
+
+import Helper.Constants;
+
+public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeHolder> {
+
+    private List<CartDetails> orderProducts;
+
+    public HomeAdapter(List<CartDetails> allProducts){
+        orderProducts = allProducts;
+    }
+
+
+    @NonNull
+    @Override
+    public HomeAdapter.HomeHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+
+        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.fragment_home_recyclerview,viewGroup,false);
+        return new HomeHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull HomeAdapter.HomeHolder homeHolder, int i) {
+
+//        final ProductDetails productDetails = products.get(i);
+        CartDetails cartDetail = orderProducts.get(i);
+        homeHolder.homeProductName.setText(cartDetail.getCartProductName());
+        homeHolder.homeProductWeight.setText(cartDetail.getCartProductWeight());
+        homeHolder.homeProductPrice.setText(String.valueOf(cartDetail.getCartProductPrice()));
+//        homeHolder.productWeight.setText(productDetails.getProductWeight());
+//        if(productDetails.getProductStatus().equals(Constants.ACTIVE_STATUS)){
+//            homeHolder.productStatus.setBackgroundColor(Color.parseColor(Constants.ACTIVE_STATUS_COLOR));
+//        }else{
+// 
